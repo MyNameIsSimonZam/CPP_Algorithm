@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\New folder\6_map.cpp" />
+    <ClCompile Include="..\New folder\2_stack.cpp" />
     <ClCompile Include="238ЗProductOfArray.cpp" />
     <ClCompile Include="2529MaximumCountOfPositiveIntrgerAndNegativeInteger.cpp" />
   </ItemGroup>
