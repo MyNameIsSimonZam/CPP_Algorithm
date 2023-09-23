@@ -13,16 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\NewFilter1">
+      <UniqueIdentifier>{530140ee-8760-465e-a463-c68b9a5f914b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\NewFilter2">
+      <UniqueIdentifier>{3f5989dd-bb69-449d-8d12-4ff8f7a86e20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2529MaximumCountOfPositiveIntrgerAndNegativeInteger.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="238ЗProductOfArray.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="1.TwoSum.cpp">
+      <Filter>Resource Files\NewFilter1</Filter>
     </ClCompile>
     <ClCompile Include="20ValidParentheses.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="217.Contains Duplicate.cpp">
+      <Filter>Resource Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="238ЗProductOfArray.cpp">
+      <Filter>Resource Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="349.Intersection of Two Arrays.cpp">
+      <Filter>Resource Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="2529MaximumCountOfPositiveIntrgerAndNegativeInteger.cpp">
+      <Filter>Resource Files\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Missing_Number.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
