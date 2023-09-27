@@ -32,4 +32,5 @@ int main6() {
 	for (int key : res)
 		cout << key << ' ';
 	cout << '\n';
+	return 0;
 }

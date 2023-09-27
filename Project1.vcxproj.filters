@@ -39,7 +39,13 @@
     <ClCompile Include="2529MaximumCountOfPositiveIntrgerAndNegativeInteger.cpp">
       <Filter>Resource Files\NewFilter1</Filter>
     </ClCompile>
-    <ClCompile Include="Missing_Number.cpp">
+    <ClCompile Include="268.Missing_Number.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="14.Longest Common Prefix.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
+    <ClCompile Include="9.Palindrome Number.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
   </ItemGroup>
