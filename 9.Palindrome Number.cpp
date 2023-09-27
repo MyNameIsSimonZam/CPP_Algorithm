@@ -6,14 +6,12 @@ using namespace std;
 
 bool isPalindrome(int x) {
 	if (x < 0) return false;
-
 	int zeroCount = 0;
 	int temp = x;
 	while (temp >= 10) {
 		temp = temp / 10;
 		zeroCount++;
 	}
-
 	while (zeroCount > 0) {
 		int a = pow(10, zeroCount);
 		int firstNumber = x / a;
@@ -27,7 +25,7 @@ bool isPalindrome(int x) {
 }
 
 
-int main() {
+int main9() {
 	int number = 1000021;
 	cout << isPalindrome(number);
 	return 0;

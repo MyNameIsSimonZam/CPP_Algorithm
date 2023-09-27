@@ -48,5 +48,8 @@
     <ClCompile Include="9.Palindrome Number.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
+    <ClCompile Include="13.RomanToInteger.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
