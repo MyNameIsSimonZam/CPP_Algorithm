@@ -13,13 +13,13 @@ bool isPalindrome(int x) {
 		zeroCount++;
 	}
 	while (zeroCount > 0) {
-		int a = (int(pow(10, zeroCount)));
+		int a = (int(pow(10.0, zeroCount)));
 		int firstNumber = x / a;
 		int lastNumber = x % 10;
 		if (firstNumber != lastNumber) return false;
 		x = (x % a) / 10;
 		zeroCount = zeroCount - 2;
-		if (zeroCount > 1 and x <= 10 and x > 0) return false;
+		if (zeroCount > 1 && x <= 10 && x > 0) return false;
 	}
 	return true;
 }

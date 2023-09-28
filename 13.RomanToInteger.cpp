@@ -1,6 +1,7 @@
 #include<iostream>
 #include<map>
 
+
 using namespace std;
 
 int romanToInt(string s) {
@@ -25,7 +26,7 @@ int romanToInt(string s) {
 	};
 
 	int res = mp[s[s.size() - 1]];
-	for (int i = s.size() - 1; i > 0; i--) {
+	for (size_t i = s.size() - 1; i > 0; i--) {
 		if (mp[s[i - 1]] < mp[s[i]]) {
 			res -= mp[s[i - 1]];
 		}

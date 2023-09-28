@@ -51,5 +51,8 @@
     <ClCompile Include="13.RomanToInteger.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
+    <ClCompile Include="169.Majority Element.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="13.RomanToInteger.cpp" />
     <ClCompile Include="14.Longest Common Prefix.cpp" />
+    <ClCompile Include="169.Majority Element.cpp" />
     <ClCompile Include="20ValidParentheses.cpp" />
     <ClCompile Include="217.Contains Duplicate.cpp" />
     <ClCompile Include="238ЗProductOfArray.cpp" />
