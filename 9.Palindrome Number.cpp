@@ -1,5 +1,5 @@
-#include<iostream>;
-#include <cmath>;
+#include<iostream>
+#include<cmath>
 
 using namespace std;
 
@@ -13,7 +13,7 @@ bool isPalindrome(int x) {
 		zeroCount++;
 	}
 	while (zeroCount > 0) {
-		int a = pow(10, zeroCount);
+		int a = (int(pow(10, zeroCount)));
 		int firstNumber = x / a;
 		int lastNumber = x % 10;
 		if (firstNumber != lastNumber) return false;
@@ -25,8 +25,8 @@ bool isPalindrome(int x) {
 }
 
 
-int main9() {
-	int number = 1000021;
-	cout << isPalindrome(number);
-	return 0;
-}
+//int main() {
+//	int number = 1000221;
+//	cout << isPalindrome(number);
+//	return 0;
+//}
