@@ -38,9 +38,8 @@ int romanToInt(string s) {
 }
 
 
-int main() {
-	string s = "III";
-	cout << romanToInt(s);
-	return 0;
-}
-
+//int main() {
+//	string s = "III";
+//	cout << romanToInt(s);
+//	return 0;
+//}
