@@ -57,5 +57,8 @@
     <ClCompile Include="242.ValidAnagram.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
+    <ClCompile Include="387.FirstUniqueCharacterinaString.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
