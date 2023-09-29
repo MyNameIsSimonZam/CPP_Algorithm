@@ -134,6 +134,7 @@
     <ClCompile Include="20ValidParentheses.cpp" />
     <ClCompile Include="217.Contains Duplicate.cpp" />
     <ClCompile Include="238ЗProductOfArray.cpp" />
+    <ClCompile Include="242.ValidAnagram.cpp" />
     <ClCompile Include="2529MaximumCountOfPositiveIntrgerAndNegativeInteger.cpp" />
     <ClCompile Include="1.TwoSum.cpp" />
     <ClCompile Include="349.Intersection of Two Arrays.cpp" />

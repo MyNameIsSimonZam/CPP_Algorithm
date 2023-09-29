@@ -54,5 +54,8 @@
     <ClCompile Include="169.Majority Element.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
+    <ClCompile Include="242.ValidAnagram.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
