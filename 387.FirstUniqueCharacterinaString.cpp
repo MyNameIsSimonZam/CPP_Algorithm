@@ -1,31 +1,33 @@
 #include<iostream>
 #include<string>
 #include<algorithm>
+#include<unordered_map>
 
 using namespace std;
 
 
 int firstUniqChar(string s) {
+	unordered_map<char, int>mp;
+	for (size_t i = 0; i < s.size(); i++) {
+		mp[s[i]]++;
+	}
 
-	for (int i = 0; i < s.size(); i++) {
-		int temp = 0;
-		for (int j = 0; j < s.size(); j++)
-		{
-			if (s[i] == s[j]) {
-				temp++;
-			}
+	unordered_map<char, int>mp_unique;
+	for (auto& [k, v] : mp) {
+		if (v == 1) {
+			mp_unique.emplace(k, v);
 		}
-		if (temp == 1) {
-			return i;
-		}
+	}
+
+	for (size_t i = 0; i < s.size(); i++) {
+		if (mp_unique.count(s[i])) return i;
 	}
 	return -1;
 }
 
 
-
-//int main() {
-//	string s = "loveleetcode";
-//	cout << firstUniqChar(s);
-//	return 0;
-//}
+int main() {
+	string s = "leetcode";
+	cout << firstUniqChar(s);
+	return 0;
+}

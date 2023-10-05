@@ -32,12 +32,12 @@ bool isAnagram(string s, string t) {
 }
 
 
-int main() {
-	string s = "ccac";
-	string t = "caac";
-	cout << isAnagram(s, t);
-	return 0;
-}
+//int main() {
+//	string s = "ccac";
+//	string t = "caac";
+//	cout << isAnagram(s, t);
+//	return 0;
+//}
 
 
 
