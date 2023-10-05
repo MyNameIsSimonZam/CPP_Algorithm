@@ -141,6 +141,7 @@
     <ClCompile Include="268.Missing_Number.cpp" />
     <ClCompile Include="387.FirstUniqueCharacterinaString.cpp" />
     <ClCompile Include="9.Palindrome Number.cpp" />
+    <ClCompile Include="153.FindMinimuminRotatedSortedArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

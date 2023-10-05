@@ -60,5 +60,8 @@
     <ClCompile Include="387.FirstUniqueCharacterinaString.cpp">
       <Filter>Resource Files\NewFilter2</Filter>
     </ClCompile>
+    <ClCompile Include="153.FindMinimuminRotatedSortedArray.cpp">
+      <Filter>Resource Files\NewFilter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

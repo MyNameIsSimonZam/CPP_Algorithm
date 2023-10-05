@@ -26,8 +26,8 @@ int firstUniqChar(string s) {
 }
 
 
-int main() {
-	string s = "leetcode";
-	cout << firstUniqChar(s);
-	return 0;
-}
+//int main() {
+//	string s = "leetcode";
+//	cout << firstUniqChar(s);
+//	return 0;
+//}
