@@ -26,11 +26,11 @@ void twoSum(vector<int>& nums, int target) { // Сделать за О(1) по памяти
 }
 
 
-int main() {
-
-	vector<int> nums{ 2, 3, 4, 5, 6, 7, 8 }; // найти все пары 
-	int target = 11;
-	twoSum(nums, target);
-
-	return 0;
-}
+//int main() {
+//
+//	vector<int> nums{ 2, 3, 4, 5, 6, 7, 8 }; // найти все пары 
+//	int target = 11;
+//	twoSum(nums, target);
+//
+//	return 0;
+//}
