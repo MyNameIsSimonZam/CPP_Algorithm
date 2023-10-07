@@ -19,6 +19,9 @@
     <Filter Include="Resource Files\NewFilter2">
       <UniqueIdentifier>{3f5989dd-bb69-449d-8d12-4ff8f7a86e20}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\NewFilter3">
+      <UniqueIdentifier>{ab5223f5-e305-4889-892b-3cf42826119f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.TwoSum.cpp">

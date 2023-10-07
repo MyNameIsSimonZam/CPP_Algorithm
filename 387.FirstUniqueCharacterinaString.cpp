@@ -11,16 +11,8 @@ int firstUniqChar(string s) {
 	for (size_t i = 0; i < s.size(); i++) {
 		mp[s[i]]++;
 	}
-
-	unordered_map<char, int>mp_unique;
-	for (auto& [k, v] : mp) {
-		if (v == 1) {
-			mp_unique.emplace(k, v);
-		}
-	}
-
 	for (size_t i = 0; i < s.size(); i++) {
-		if (mp_unique.count(s[i])) return i;
+		if (mp[s[i]] == 1) return i; // mp[s[i]] обращаемся к элементу по ключу / s[i] - ключ
 	}
 	return -1;
 }

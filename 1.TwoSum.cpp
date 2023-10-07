@@ -1,10 +1,10 @@
-//#include<iostream>
+#include<iostream>
 #include<vector>
 #include<map>
 
 using namespace std;
 
-vector<int> twoSum(vector<int>& nums, int target) {
+vector<int> twoSumLeetcode(vector<int>& nums, int target) {
 	map<int, int> my_map;
 	for (int i = 0; i < nums.size(); i++) {
 		if (my_map.count(target - nums[i]) == 1) return { i, my_map[target - nums[i]] };
@@ -13,10 +13,24 @@ vector<int> twoSum(vector<int>& nums, int target) {
 	return { -1,-1 };
 }
 
-int main4() {
 
-	vector<int> nums{ 3, 2, 4 };
-	int target = 6;
+void twoSum(vector<int>& nums, int target) { // Сделать за О(1) по памяти
+	int l = 0;
+	int r = nums.size() - 1;
+	while (l < r) {
+		int sum = nums[l] + nums[r];
+		if (sum < target) l++;
+		else if (sum > target) r--;
+		else cout << l++ << " " << r-- << '\n';
+	}
+}
+
+
+int main() {
+
+	vector<int> nums{ 2, 3, 4, 5, 6, 7, 8 }; // найти все пары 
+	int target = 11;
+	twoSum(nums, target);
 
 	return 0;
 }
