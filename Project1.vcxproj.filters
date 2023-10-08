@@ -69,5 +69,8 @@
     <ClCompile Include="26.RemoveDuplicatesfromSortedArray.cpp">
       <Filter>Resource Files\NewFilter3</Filter>
     </ClCompile>
+    <ClCompile Include="283.MoveZeroes.cpp">
+      <Filter>Resource Files\NewFilter3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

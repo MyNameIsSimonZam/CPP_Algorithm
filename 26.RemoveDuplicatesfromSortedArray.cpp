@@ -21,14 +21,14 @@ int removeDuplicates(vector<int>& nums) {
 	return count;
 }
 
-int main() {
-	vector<int> nums = { 0, 0, 0, 1, 1, 1, 2, 3, 3, 4 };
-	int k = removeDuplicates(nums);
-	cout << k << '\n';
-	for (int n : nums) {
-		cout << n << ' ';
-	}
-	cout << '\n';
-
-	return 0;
-}
+//int main() {
+//	vector<int> nums = { 0, 0, 0, 1, 1, 1, 2, 3, 3, 4 };
+//	int k = removeDuplicates(nums);
+//	cout << k << '\n';
+//	for (int n : nums) {
+//		cout << n << ' ';
+//	}
+//	cout << '\n';
+//
+//	return 0;
+//}
