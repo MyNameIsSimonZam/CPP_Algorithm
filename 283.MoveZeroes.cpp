@@ -19,12 +19,12 @@ void moveZeroes(vector<int>& nums) {
 	}
 }
 
-int main() {
-	vector<int> nums = { 0,1,0,3,12 };
-	moveZeroes(nums);
-	for (int n : nums) {
-		cout << n << ' ';
-	}
-	cout << '\n';
-	return 0;
-}
+//int main() {
+//	vector<int> nums = { 0,1,0,3,12 };
+//	moveZeroes(nums);
+//	for (int n : nums) {
+//		cout << n << ' ';
+//	}
+//	cout << '\n';
+//	return 0;
+//}
