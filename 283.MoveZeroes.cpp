@@ -5,22 +5,22 @@ using namespace std;
 
 void moveZeroes(vector<int>& nums) {
 	int l = 0;
-	int r = 1;
+	int r = 0;
 	while (r < nums.size()) {
-		if (nums[r] == 0) {
-			r++;
-		}
-		if (nums[r] != 0) {
+		if (nums[l] == 0 && nums[r] != 0) {
 			nums[l] = nums[r];
 			nums[r] = 0;
 			l++;
-			r++;
 		}
+		else if (nums[l] != 0 && nums[r] != 0) {
+			l++;
+		}
+		r++;
 	}
 }
 
 //int main() {
-//	vector<int> nums = { 0,1,0,3,12 };
+//	vector<int> nums = { 0,0,1 };
 //	moveZeroes(nums);
 //	for (int n : nums) {
 //		cout << n << ' ';

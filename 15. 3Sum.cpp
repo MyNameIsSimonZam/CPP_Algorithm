@@ -5,29 +5,48 @@
 using namespace std;
 
 vector<vector<int>> threeSum(vector<int>& nums) {
-	int l = 0;
-	int r = 1;
 	vector<vector<int>> res;
-	for (int i = 0; i < nums.size(); i++)
-	{
-		while (r < nums.size()) {
-			if (r != i && l != i) {
-				if (nums[i] + nums[l] + nums[r] == 0) {
-					vector<int> innerVector = { nums[i], nums[l], nums[r] };
-					res.push_back(innerVector);
+	sort(nums.begin(), nums.end());
+
+	//for (int num : nums) {
+	//	cout << num << ' ';
+	//}
+	//cout << '\n';
+
+	for (int i = 0; i < nums.size() - 2; i++) {
+		int r = nums.size() - 1;
+		int l = i + 1;
+		while (l < r) {
+			int sum = nums[i] + nums[l] + nums[r];
+			if (sum == 0) {
+				vector<int> innerVector = { nums[i], nums[l], nums[r] };
+				res.push_back(innerVector);
+				l++;
+				r--;
+				while (l < r && nums[r] == innerVector[2]) {
+					r--;
+				}
+				while (l < r && nums[l] == innerVector[1]) {
+					l++;
 				}
 			}
-			l++;
-			r++;
+			else if (sum > 0) {
+				r--;
+			}
+			else {
+				l++;
+			}
+		}
+		while (i < nums.size() - 2 && nums[i + 1] == nums[i]) {
+			i++;
 		}
 	}
 	return res;
 }
 
 int main() {
-	vector<int> nums = { -1,0,1,2,-1,-4 };
+	vector<int> nums = { -4, -1, -1, 0, 1, 2 };
 	vector<vector<int>> res = threeSum(nums);
-
 	for (vector<int> n : res) {
 		for (int num : n) {
 			cout << num << ' ';
