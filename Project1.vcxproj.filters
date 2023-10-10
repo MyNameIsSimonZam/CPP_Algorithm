@@ -75,5 +75,11 @@
     <ClCompile Include="15. 3Sum.cpp">
       <Filter>Resource Files\NewFilter3</Filter>
     </ClCompile>
+    <ClCompile Include="11.ContainerWithMostWater.cpp">
+      <Filter>Resource Files\NewFilter3</Filter>
+    </ClCompile>
+    <ClCompile Include="202.HappyNumber.cpp">
+      <Filter>Resource Files\NewFilter3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
