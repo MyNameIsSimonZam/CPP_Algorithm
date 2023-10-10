@@ -44,15 +44,15 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 	return res;
 }
 
-int main() {
-	vector<int> nums = { -4, -1, -1, 0, 1, 2 };
-	vector<vector<int>> res = threeSum(nums);
-	for (vector<int> n : res) {
-		for (int num : n) {
-			cout << num << ' ';
-		}
-		cout << '\n';
-	}
-	return 0;
-}
+//int main() {
+//	vector<int> nums = { -4, -1, -1, 0, 1, 2 };
+//	vector<vector<int>> res = threeSum(nums);
+//	for (vector<int> n : res) {
+//		for (int num : n) {
+//			cout << num << ' ';
+//		}
+//		cout << '\n';
+//	}
+//	return 0;
+//}
 
