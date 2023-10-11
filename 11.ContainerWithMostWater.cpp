@@ -44,10 +44,8 @@ int maxArea(vector<int>& height) {
 }
 
 
-
-
-int main() {
-	vector<int> height = { 1,8,6,2,5,4,8,3,7 };
-	cout << maxArea(height) << '\n';
-	return 0;
-}
+//int main() {
+//	vector<int> height = { 1,8,6,2,5,4,8,3,7 };
+//	cout << maxArea(height) << '\n';
+//	return 0;
+//}
