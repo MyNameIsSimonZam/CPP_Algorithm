@@ -2,9 +2,9 @@
 
 using namespace std;
 
-bool isHappy(int n) {
-
-}
+//bool isHappy(int n) {
+//
+//}
 
 
 //int main() {
