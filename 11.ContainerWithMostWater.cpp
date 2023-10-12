@@ -11,34 +11,14 @@ int maxArea(vector<int>& height) {
 
 	while (l < r) {
 		if (height[l] < height[r]) {
-			if (height[l] < height[r]) {
-				if (height[l] * distance > max) {
-					max = height[l] * distance;
-				}
-			}
-			else {
-				if (height[r] * distance > max) {
-					max = height[r] * distance;
-				}
-			}
+			max = height[l] * distance > max ? height[l] * distance : max;
 			l++;
-			distance--;
 		}
-
 		else {
-			if (height[l] < height[r]) {
-				if (height[l] * distance > max) {
-					max = height[l] * distance;
-				}
-			}
-			else {
-				if (height[r] * distance > max) {
-					max = height[r] * distance;
-				}
-			}
+			max = height[r] * distance > max ? height[r] * distance : max;
 			r--;
-			distance--; 
 		}
+		distance--;
 	}
 	return max;
 }
