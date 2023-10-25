@@ -24,7 +24,7 @@ bool isHappy(int n) {
 }
 
 
-int main() {
-	cout << isHappy(75);
-	return 0;
-}
+//int main() {
+//	cout << isHappy(75);
+//	return 0;
+//}
