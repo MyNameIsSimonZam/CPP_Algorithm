@@ -69,7 +69,9 @@ void file1() {
 	fout << n;
 	}
 
-//int main() {
+
+//int main() 
+// {
 //	int n;
 //	fstream finout("inout.txt", ios_base::in | ios_base::out);
 //}
