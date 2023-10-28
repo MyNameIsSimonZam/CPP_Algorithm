@@ -37,27 +37,27 @@ int giveMaxCandies(vector<int>& v) {
 }
 
 
-int main1() {
-	ifstream fin;
-	fin.open("input.txt");
-	ofstream fout;
-	fout.open("output.txt");
-	int a;
-	fin >> a;
-	for (a; a > 0; a--) {
-		int b;
-		fin >> b;
-		vector<int> v;
-		for (b; b > 0; b--) {
-			int c;
-			fin >> c;
-			v.push_back(c);
-		}
-		int res = giveMaxCandies(v);
-		fout << res << '\n';
-	}
-	return 0;
-}
+//int main1() {
+//	ifstream fin;
+//	fin.open("input.txt");
+//	ofstream fout;
+//	fout.open("output.txt");
+//	int a;
+//	fin >> a;
+//	for (a; a > 0; a--) {
+//		int b;
+//		fin >> b;
+//		vector<int> v;
+//		for (b; b > 0; b--) {
+//			int c;
+//			fin >> c;
+//			v.push_back(c);
+//		}
+//		int res = giveMaxCandies(v);
+//		fout << res << '\n';
+//	}
+//	return 0;
+//}
 
 void file1() {
 	int n;
